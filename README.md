@@ -29,6 +29,7 @@ The app allows you to:
 ---
 
 ## 📂 Project Structure
+```
 src/
 ├── components/
 │ └── BooksList.jsx
@@ -37,7 +38,7 @@ src/
 ├── App.js
 ├── index.js
 └── BooksList.css
-
+```
 
 ---
 
