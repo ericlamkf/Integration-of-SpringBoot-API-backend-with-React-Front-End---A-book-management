@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 30px;
+    background-color: rgb(22, 22, 70);
+    padding: 40px;
+}
+
+.book-app {
+    background-color: rgb(43, 43, 43);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    cursor: pointer;
+    color: rgb(182, 182, 182);
+    font-family: "Share Tech", sans-serif;
+    font-weight: 800;
+    margin: 20px;
+    font-size: 4rem;
+    transition: 0.4s ease;
+}
+
+.title:hover {
+    color: rgb(105, 105, 231);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: rgb(128, 128, 228);
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dlt {
+    margin: 20px 30px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.dlt:hover {
+    rotate: 15deg;
+}
+
+ul li h3 {
+    font-size: 1.8rem;
+    color: rgb(22, 22, 22);
+    font-weight: 500;
+    font-family: "Fira Code", monospace;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+ul li h3:hover {
+    color: rgb(237, 237, 237);
+}
+
+.link {
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+    margin: 30px;
+    color: rgb(160, 160, 160);
+    font-weight: 100;
+}
+
+.link a {
+    color: rgb(66, 66, 255);
+    transition: 0.4s ease;
+}
+
+.link a:hover {
+    font-size: 1.1rem;
+    color: aquamarine;
+}
